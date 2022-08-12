@@ -130,7 +130,7 @@ Private car service near me"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
         {/* <meta name="theme-color" content="#000000" /> */}
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         {/* <meta property="twitter:card" content="summary"></meta> */}
 
         {/* <script

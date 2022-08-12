@@ -129,6 +129,7 @@ const Fleet = () => {
             <Slider {...settings} style={{ width: "100%", height: "100%" }}>
               {images.map((img, idx) => (
                 <div
+                  key={"img"}
                   className={idx === imageIndex ? "slide activeSlide" : "slide"}
                 >
                   <div className={styles.carouselItem}>
