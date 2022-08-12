@@ -1,0 +1,113 @@
+.mainContainer {
+  background: white;
+}
+.wrapper {
+  max-width: 1300px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  margin: 0 auto;
+  // padding: 30px;
+
+  @media (max-width: 697px) {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+.aboutUsCard {
+  width: 90%;
+  margin: 80px auto;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+}
+.upperTitle {
+  display: none;
+  width: 100%;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+  margin-top: 50px;
+  @media (max-width: 1143px) {
+    display: inline-block;
+  }
+}
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  @media (max-width: 1143px) {
+    display: none;
+  }
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  // margin-bottom: 80px;
+  // span {
+  //   margin-bottom: 8px;
+  // }
+}
+.contentContainer {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  align-content: center;
+  align-items: center;
+  color: black;
+  font-size: 17px;
+  line-height: 29px;
+  padding-right: 60px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  @media (max-width: 1143px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-right: 0px;
+  }
+  // @media (max-width: ) {
+  //   flex-direction: row;
+  // }
+  .imgContainer {
+    position: relative;
+    width: 614px;
+    height: 413px;
+    @media (max-width: 1267px) {
+      width: 524px;
+      height: 393px;
+    }
+    @media (max-width: 1143px) {
+      width: 614px;
+      height: 413px;
+    }
+    @media (max-width: 705px) {
+      width: 454px;
+      height: 340px;
+    }
+    @media (max-width: 539px) {
+      width: 354px;
+      height: 265px;
+    }
+    @media (max-width: 433px) {
+      width: 300px;
+      height: 225px;
+    }
+    @media (max-width: 385px) {
+      width: 285px;
+      height: 214px;
+    }
+    @media (max-width: 332px) {
+      width: 245px;
+      height: 174px;
+    }
+  }
+}
+.textContainer {
+  @media (max-width: 1143px) {
+    margin-top: 50px;
+    padding: 30px;
+  }
+}

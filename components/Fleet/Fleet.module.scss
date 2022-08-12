@@ -1,0 +1,123 @@
+.mainContainer {
+  background: url('https://delux-limo.s3.us-east-2.amazonaws.com/fleetBg-min.webp')
+    no-repeat center;
+  background-size: 100%;
+  //   background-position-x: ;
+  background-position-y: 0%;
+  @media (max-width: 1529px) {
+    background-size: 120%;
+  }
+  @media (max-width: 1261px) {
+    background-size: 130%;
+  }
+  @media (max-width: 1165px) {
+    height: 700px;
+  }
+  @media (max-width: 1029px) {
+    height: 600px;
+  }
+  @media (max-width: 871px) {
+    height: 530px;
+  }
+  @media (max-width: 781px) {
+    height: 460px;
+  }
+  @media (max-width: 669px) {
+    background-size: 160%;
+  }
+  @media (max-width: 549px) {
+    background-size: 180%;
+  }
+  @media (max-width: 491px) {
+    height: 420px;
+  }
+  @media (max-width: 445px) {
+    background-size: 210%;
+  }
+  @media (max-width: 381px) {
+    background-size: 250%;
+  }
+}
+.wrapper {
+  max-width: 1300px;
+
+  margin: 0px auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-right: 45px;
+  padding-left: 45px;
+  @media (max-width: 697px) {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+
+  margin-bottom: 100px;
+  @media (max-width: 1029px) {
+    margin-bottom: 0px;
+  }
+
+  span {
+    margin-bottom: 8px;
+  }
+}
+.carouselContainer {
+  display: flex;
+  //   flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  @media (max-width: 781px) {
+    padding-top: 25px;
+  }
+}
+// .carouselSelf {
+//   width: 800px;
+// }
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+  // @media (max-width: 1289px) {
+  //   width: 400px;
+  // }
+  .carouselItemImgContainer {
+    width: 78%;
+    height: 41%;
+  }
+  span {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    @media (max-width: 1165px) {
+      margin-top: 40px;
+    }
+  }
+}
+.carouselItemMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 270px;
+  @media (max-width: 679px) {
+    width: 300px;
+    height: 180px;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 18px;
+    // margin-top: 20px;
+  }
+}
