@@ -1,5 +1,5 @@
 .mainContainer {
-  background: url('https://delux-limo.s3.us-east-2.amazonaws.com/fleetBg-min.webp')
+  background: url("https://delux-limo.s3.us-east-2.amazonaws.com/fleetBg-min.webp")
     no-repeat center;
   background-size: 100%;
   //   background-position-x: ;
@@ -117,7 +117,8 @@
 
   span {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 20px;
     // margin-top: 20px;
   }
 }

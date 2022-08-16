@@ -41,8 +41,8 @@
 .mainTitle {
   width: 100%;
   color: black;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 34px;
   //   text-align: center;
   // display: grid;
   // grid-template-rows: 1fr 1fr;
@@ -155,8 +155,14 @@
     justify-content: space-between;
     align-items: center;
     color: black;
-    span {
+    h2 {
+      font-weight: 800;
+      font-size: 21px;
       margin-top: 23px;
+      text-align: center;
+      // @media (max-width: 607px) {
+      //   text-align: center;
+      // }
     }
     p {
       margin-top: 26px;

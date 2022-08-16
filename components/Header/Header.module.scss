@@ -82,7 +82,7 @@
 }
 .headerText {
   width: 754px;
-  height: 307px;
+  height: 290px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,18 +90,29 @@
   margin-bottom: 80px;
   padding: 26px;
   background: rgba(0, 0, 0, 0.6);
-  filter: blur(0.7);
-  font-weight: 700;
-  font-size: 35px;
-  color: white;
+  filter: blur(0.5);
+
+  & > h1 {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    line-height: 1.6;
+    @media (max-width: 1471px) {
+      font-size: 28px;
+      line-height: 1.3;
+    }
+    @media (max-width: 812px) {
+      font-size: 22px;
+    }
+  }
   @media (max-width: 1471px) {
     margin-left: 100px;
   }
   @media (max-width: 1471px) {
     width: 604px;
-    height: 207px;
-    font-size: 28px;
-    line-height: 1.3;
+    height: 310px;
+    // font-size: 28px;
+    // line-height: 1.3;
     margin-left: 50px;
   }
   @media (max-width: 812px) {
@@ -117,15 +128,15 @@
 
   flex-direction: column;
   align-items: center;
-  filter: opacity(4);
+  filter: opacity(1);
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 45px;
   padding-left: 45px;
-  //   backdrop-filter: blur(6px);
-  -webkit-filter: opacity(4);
+  backdrop-filter: blur(4px);
+  -webkit-filter: opacity(1);
   position: relative;
-  //   -webkit-backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.6);
   @media (max-width: 700px) {
     flex-direction: row;
@@ -141,7 +152,7 @@
   }
 }
 .companyName {
-  width: 400px;
+  // width: 400px;
   margin-bottom: 30px;
   // height: 102px;
   // height: 100%;
@@ -155,15 +166,18 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  & > p {
+  @media (max-width: 500px) {
+    margin-bottom: 0;
+  }
+  & > h1 {
     color: black;
     font-size: 28px;
     font-weight: 900;
+    @media (max-width: 500px) {
+      font-size: 20px;
+    }
   }
-  // @media (max-width: 386px) {
-  //   width: 240px;
-  //   height: 66.15px;
-  // }
+  // @media (max-width: 386px) { // width: 240px; // height: 66.15px; // };
 }
 .ulMenu {
   //   display: grid;

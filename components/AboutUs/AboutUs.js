@@ -14,7 +14,7 @@ const AboutUs = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.wrapper}>
-        <h3 className={styles.upperTitle}>ABOUT US</h3>
+        <h2 className={styles.upperTitle}>ABOUT US</h2>
         <div className={styles.aboutUsCard}>
           <figure className={styles.contentContainer}>
             <div className={styles.imgContainer}>
@@ -34,7 +34,7 @@ const AboutUs = () => {
               />
             </div>
             <figcaption className={styles.textContainer}>
-              <h3 className={styles.title}>ABOUT US</h3>
+              <h2 className={styles.title}>ABOUT US</h2>
               <p>
                 Service You Can Rely On
                 <br />

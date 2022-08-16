@@ -114,7 +114,7 @@ const Fleet = () => {
     <div className={styles.mainContainer}>
       <div className={styles.wrapper}>
         <div className={styles.titleContainer}>
-          <span>FLEET</span>
+          <h2>FLEET</h2>
           {/* <TitleUnderline
             color={"black"}
             width={"94px"}

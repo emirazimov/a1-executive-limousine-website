@@ -23,7 +23,7 @@ const OurServices = () => {
     <div className={styles.mainContainer}>
       <div className={styles.wrapper}>
         <div className={styles.mainTitle}>
-          <span>OUR SERVICES</span>
+          <h2>OUR SERVICES</h2>
           {/* <TitleUnderline
             color={"white"}
             width={"222px"}
@@ -52,7 +52,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>Airport Transfers</span>
+                <h2>Airport Transfers</h2>
                 <p>
                   Arrive at Washington DC airports in style and comfort. We will
                   pick you up in a Private SUV, limousine, or luxury car. No
@@ -71,7 +71,7 @@ const OurServices = () => {
               /> */}
                 <Image
                   loader={imageLoader}
-                  src="card2-min.webp"
+                  src="card2-min.jpg"
                   alt="ServicesImg2"
                   // style={{ width: "100%", height: "100%" }}
                   width={"370%"}
@@ -80,7 +80,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>Wine Tours</span>
+                <h2>Corporate Travel</h2>
                 <p>
                   At A1 Executive Limos, we provide Chauffeur for Corporate
                   travel. We want you to enjoy yourself even when you’re
@@ -111,7 +111,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>Point to Point Transportation</span>
+                <h2>Point to Point Transportation</h2>
                 <p>
                   Our point to point car service provides you with the kind of
                   transportation that will help make your event or occasion a
@@ -136,7 +136,7 @@ const OurServices = () => {
               /> */}
                     <Image
                       loader={imageLoader}
-                      src="card4-min.webp"
+                      src="card4-min.jpg"
                       alt="ServicesImg4"
                       // style={{ width: "100%", height: "100%" }}
                       width={"370%"}
@@ -145,7 +145,7 @@ const OurServices = () => {
                     />
                   </div>
                   <figcaption className={styles.textContainer}>
-                    <span>City Tours</span>
+                    <h2>City Tours</h2>
                     <p>
                       A1 Executive Limos provides privately chauffeured tours
                       that leave you feeling more like a local than a visitor.
@@ -180,7 +180,7 @@ const OurServices = () => {
                     />
                   </div>
                   <figcaption className={styles.textContainer}>
-                    <span>Weddings</span>
+                    <h2>Weddings</h2>
                     <p>
                       Your wedding is the most important and magical day of your
                       life, and you want the best of everything, which includes
@@ -210,7 +210,7 @@ const OurServices = () => {
                     />
                   </div>
                   <figcaption className={styles.textContainer}>
-                    <span>Hourly Chauffer Services</span>
+                    <h2>Chauffeur Services</h2>
                     <p>
                       You will be asked to indicate a pick-up location and a
                       destination location of your choice while booking a
@@ -241,7 +241,7 @@ const OurServices = () => {
               /> */}
                 <Image
                   loader={imageLoader}
-                  src="card4-min.webp"
+                  src="card4-min.jpg"
                   alt="ServicesImg4"
                   // style={{ width: "100%", height: "100%" }}
                   width={"370%"}
@@ -250,7 +250,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>City Tours</span>
+                <h2>City Tours</h2>
                 <p>
                   A1 Executive Limos provides privately chauffeured tours that
                   leave you feeling more like a local than a visitor. Every tour
@@ -285,7 +285,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>Weddings</span>
+                <h2>Weddings</h2>
                 <p>
                   Your wedding is the most important and magical day of your
                   life, and you want the best of everything, which includes
@@ -315,7 +315,7 @@ const OurServices = () => {
                 />
               </div>
               <figcaption className={styles.textContainer}>
-                <span>Hourly Chauffer Services</span>
+                <h2>Chauffeur Services</h2>
                 <p>
                   You will be asked to indicate a pick-up location and a
                   destination location of your choice while booking a transfer.

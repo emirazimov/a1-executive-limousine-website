@@ -15,7 +15,7 @@ const Contacts = () => {
     <div className={styles.mainContainer}>
       <div className={styles.wrapper}>
         <div className={styles.titleContainer}>
-          <span>CONTACTS</span>
+          <h2>CONTACTS</h2>
           {/* <TitleUnderline
             color={"white"}
             width={"170px"}

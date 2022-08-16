@@ -16,7 +16,7 @@ const Footer = () => {
       <hr className={styles.hrFooter}></hr>
       <div className={styles.wrapper}>
         <div className={styles.firstRow}>
-          <h3>A1 EXECUTIVE LIMOS</h3>
+          <h2>A1 EXECUTIVE LIMOS</h2>
         </div>
         <div className={styles.secondRow}>
           <span>

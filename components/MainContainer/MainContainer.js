@@ -11,7 +11,7 @@ const MainContainer = ({ children, keywords }) => {
         <meta charSet="utf-8" />
         <link
           rel="icon"
-          href="https://delux-limo.s3.us-east-2.amazonaws.com/logo.jpg"
+          href="https://i0.wp.com/a1executivelimos.com/wp-content/uploads/2019/05/cropped-DC-Limousines-Private-Car-Service-SUV-22-1.jpg?fit=192%2C192&ssl=1"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -36,7 +36,7 @@ Private car service near me"
         <link rel="canonical" href="https://dlxlimousine.com/" />
         <link
           rel="apple-touch-icon"
-          href="https://delux-limo.s3.us-east-2.amazonaws.com/logo.jpg"
+          href="https://i0.wp.com/a1executivelimos.com/wp-content/uploads/2019/05/cropped-DC-Limousines-Private-Car-Service-SUV-22-1.jpg?fit=180%2C180&ssl=1"
         />
         <meta
           name="description"
@@ -49,19 +49,21 @@ Private car service near me"
                 out. We aim to not only meet your needs, but also exceed your
                 expectations of what a Limousine Service can be."
         ></meta>
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
           rel="stylesheet"
         />
         <meta
           name="viewport"
           content="width=device-width, initialscale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        {/* 
+
         <link
           rel="stylesheet"
           href="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/Global-widget-files/widget.css"
-        /> */}
+        />
         {/* <link
           rel="stylesheet"
           href="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/Global-widget-files/widget.css.map"
@@ -151,17 +153,22 @@ Private car service near me"
          gtag('config', 'UA-212872613-1');`}
         </script> */}
         {/* <script
-          src="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/option1-widget-files/deluxe-limo.js"
+          src="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/option1-widget-files/a1-executive-limousine.js"
           type="text/javascript"
         ></script> */}
         {/* <script src="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/Global-widget-files/widget.js"></script> */}
       </Head>
       <div>{children}</div>
       <div id="widget-by-bookinglane"></div>
+      {/* 
+      <Script
+        src="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/option1-widget-files/a1-executive-limousine.js"
+        strategy="lazyOnload"
+      ></Script>
 
-      {/* <Script
+      <Script
         src="https://bookinglane-widgets.s3.us-east-2.amazonaws.com/Global-widget-files/widget.js"
-
+        strategy="lazyOnload"
       ></Script> */}
       {/* <Script
         onLoad={() => {

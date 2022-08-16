@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
       bottom: "initial",
       height: "100%",
       position: "none",
-      background: "black",
+      background: "white",
     },
     "& .jss6": {
       left: "initial",
@@ -165,7 +165,7 @@ const Header = ({
               alt='headerImg'
             /> */}
 
-            <p>A1 EXECUTIVE LIMOS</p>
+            <h1>A1 EXECUTIVE LIMOS</h1>
           </div>
           {isMobile ? (
             <div className={classes.root}>
@@ -219,10 +219,11 @@ const Header = ({
         </nav>
         <div className={styles.headerTextContainer}>
           <div className={styles.headerText}>
-            <span>
+            <h1>
               Washington DC Area Private Car and SUV, Hourly or Airport Service.
+              <br />
               Washington DC - New York, and Other Destinations Round Trip.
-            </span>
+            </h1>
           </div>
         </div>
       </div>
